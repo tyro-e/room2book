@@ -1,0 +1,77 @@
+.hcsb_poweredBy, .hcsb_topTitle {
+    display: none !important;
+}
+
+a.hcsb_searchButton{
+    background-color: #43b988 !important;
+}
+
+
+
+input{
+    font-size: 45px !important;
+    padding: 5px !important;
+}
+
+.hcsb_guests, .hcsb_checkinDay, .hcsb_checkinMonth, .hcsb_checkoutDay, .hcsb_checkoutMonth{
+    font-size: 23px !important;
+    color: #999!important;
+}
+
+.hcsb_checkinDateContent img, .hcsb_checkoutDateContent img{
+    /*
+    transform: scale(1.5);
+    margin-left: 5px !important;
+    top: 1.2em !important;
+    */
+
+    display: none !important;
+}
+
+.hcsb_checkinDay, .hcsb_checkoutDay {
+     /*margin: 0.1em 0.5em 0 !important;*/
+ }
+
+a.hcsb_searchButton{
+    font-size: 23px !important;
+    padding: 0 0 0 2px !important;
+    height: 2.1em !important;
+    line-height: 2.1em !important;
+    margin-top: 1em !important;
+    width: 30% !important;
+ }
+
+.hcsb_checkinDay, .hcsb_checkinMonth, .hcsb_checkoutDay, .hcsb_checkoutMonth{
+    margin: 0 !important;
+}
+
+.hcsb_responsive_desktop .hcsb_checkinDateWrapper, .hcsb_responsive_desktop .hcsb_checkoutDateWrapper{
+    margin-right: 10px !important;
+ }
+
+ .hcsb_guests{
+     margin: 0 !important;
+ }
+
+ .hcsb_container, .hcsb_ac hcsb_responsive, .hcsb_responsive_doublecalendar, .hcsb_responsive_desktop{
+    height: 100% !important;
+ }
+
+ .hcsb_outer{
+    padding: 4% 12% !important;
+    max-width: 1400px !important;
+    margin: 0 auto !important;
+    height: 100% !important;
+    top: 0 !important;
+    bottom: 0 !important;
+    text-align: center !important;
+}
+
+ .hcsb_content{
+    position: absolute !important;
+    top: -16% !important;
+    bottom: 0 !important;
+    margin: auto !important;
+    text-align: center !important;
+    display: table !important;
+ }

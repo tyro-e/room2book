@@ -1,0 +1,110 @@
+body{
+    margin: 0 !important;
+    height: 100%;
+}
+
+.ATF{
+    
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+   /* background-image: url("https://marvelapp-live.storage.googleapis.com/serve/2017/2/1fe1e2c154cd42b8873f4350fe5908f0.png");
+    */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.MID{
+    height: 100vh;
+    widows: 100%;
+    background-color: #43b988;
+        overflow: hidden;
+    text-align: center;
+   /* background-image: url("https://marvelapp-live.storage.googleapis.com/serve/2017/2/1fe1e2c154cd42b8873f4350fe5908f0.png");
+    */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.content-row{
+    max-width: 1050px;
+    margin: 0 auto;
+    margin-top: 10%;
+}
+
+.BTF{
+    background-color: white;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.contain{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    display: table;
+    text-align: center;
+}
+
+.construction{
+    font-size: 1px;
+    margin: 0 auto;
+    margin-top: 40px;
+    display: inline-block;
+}
+
+ .text1 {
+    font-family: "Bebas Neue", Arial; 
+    font-size: 60px; 
+    color: #43b988;
+    padding-top: 20px;
+}
+
+ .text2 {
+    font-family: "Bebas Neue", Arial; 
+    font-size: 30px; 
+    color: #43b988;
+    padding-top: 20px;
+}
+
+.title{
+    font-family: "Bebas Neue", Arial; 
+    font-size: 60px; 
+    color: #343f44;
+    
+}
+
+.text-content{
+    font-family: "Bebas Neue", Arial; 
+    font-size: 20px; 
+    color: #343f44;
+   padding: 0 20px 20px 20px;
+}
+
+.main-icon{
+ height: 80px;
+}
+
+
+.footer{
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    top: inherit !important;
+}
+
+.footer-icon{
+    width: 40px;
+    display: inline-block;
+    cursor: pointer;
+
+}
+
