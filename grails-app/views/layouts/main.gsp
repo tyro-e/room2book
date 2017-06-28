@@ -14,14 +14,11 @@
         <ul class="nav navbar-nav">
           <li><g:link controller = "main" style="font-size: 18px;font-weight: 600;color:white">ROOM2BOOK</g:link></li>
          
-          <li style="float: right;">
-            <div class="login-control">
-              <g:loginControl/>
-            </div>
-          </li>
-          <li style="float: right;"><a>CONTACT</a></li>
-          <li style="float: right;"><a>CAREERS</a></li>
-          <li style="float: right;"><a>ABOUT US</a></li>
+
+          <li style="float: right;"><g:link controller="user" action="login">LOGIN</g:link></li>
+          <li style="float: right;"><a>TAB 3</a></li>
+          <li style="float: right;"><a>TAB 2</a></li>
+          <li style="float: right;"><a>TAB 1</a></li>
 
         </ul>
       

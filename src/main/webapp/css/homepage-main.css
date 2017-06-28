@@ -18,22 +18,29 @@ body{
 
 .MID{
     height: 100vh;
-    widows: 100%;
-    background-color: #43b988;
-        overflow: hidden;
+    width: 100%;
+    background-color: #43b988 !important;
+    overflow: hidden;
     text-align: center;
-   /* background-image: url("https://marvelapp-live.storage.googleapis.com/serve/2017/2/1fe1e2c154cd42b8873f4350fe5908f0.png");
-    */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
+    position: relative;
+}
+
+.content-super{
+    position: relative;
+    height: 100%;
+    max-width: 1050px;
+    margin: auto;
 }
 
 .content-row{
-    max-width: 1050px;
-    margin: 0 auto;
-    margin-top: 10%;
+    position: absolute;
+    bottom: 0;
+    top: -17%;
+    margin: auto;
+    display: table;
 }
+
+
 
 .BTF{
     background-color: white;
@@ -76,15 +83,22 @@ body{
 .title{
     font-family: "Bebas Neue", Arial; 
     font-size: 60px; 
-    color: #343f44;
-    
+    color: #343f44;  
+}
+
+.title2{
+    font-family: "Bebas Neue", Arial; 
+    font-size: 70px; 
+    color: #dedede;  
+    text-align: center;
+    margin-top: 40px;
 }
 
 .text-content{
     font-family: "Bebas Neue", Arial; 
     font-size: 20px; 
     color: #343f44;
-   padding: 0 20px 20px 20px;
+    padding: 0 20px 20px 20px;
 }
 
 .main-icon{
@@ -96,9 +110,8 @@ body{
     bottom: 0;
     height: 50px;
     width: 100%;
-    display: inline-block;
     text-align: center;
-    top: inherit !important;
+    position: absolute;
 }
 
 .footer-icon{
@@ -106,5 +119,12 @@ body{
     display: inline-block;
     cursor: pointer;
 
+}
+
+.col-main{
+    padding: 6% 17% 0% 17%;
+        font-family: "Bebas Neue", Arial; 
+    font-size: 20px; 
+ 
 }
 

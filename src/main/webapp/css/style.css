@@ -13,7 +13,6 @@
     font-weight: 700;
     letter-spacing: 1px;
     display: inline-block;
-    padding: 34px 0 34px 40px;
 }
 
 
@@ -29,7 +28,7 @@ body {
   font-size: 1.6rem;
   font-family: "Open Sans", sans-serif;
   color: #ffffff;
-  background-color: #22283f;
+  background-color: #43b988;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -244,26 +243,44 @@ a {
 .login-field{
   border-radius: 0;
   background-color: transparent;
-  border: 1px solid white;
+  border: 2px solid white;
   font-size: 47px;
   color: white;
   width: 100%;
   margin-bottom: 1px;
+  font-weight: 600;
 }
 
 #password{
-  color: red !important;
+  color: #545151 !important;
 }
 
 .login-btn{
-  background-color: transparent;
-  border: 1px solid white !important;
-  border-radius: 0 !important;
-  float: right;
-  color: white;
+    background-color: #343f44;
+    border: none;
+    color: white;
+    border-radius: 4px !important;
+    text-align: center;
+    margin: 0 auto;
+    width: 170px;
+    margin-top: 20px;
 }
 
 .login-btn:hover{
-  background-color: white;
+  background-color: black;
   color: white;
+}
+
+.register-notif{
+    position: absolute;
+    bottom: 0;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 2%;
+    color: white;
+}
+
+*::-webkit-input-placeholder {
+    color: rgba(255,255,255,0.7);
 }
