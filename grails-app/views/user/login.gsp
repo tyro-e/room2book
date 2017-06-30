@@ -3,8 +3,8 @@
 	<meta name='layout' content='main'/>
 </head>
 
-<body>
-	<div class="body">
+<body >
+	<div style="height: 100vh; background-color: #43b988;">
 	    <g:if test="${flash.message}">
             <div class="notif" role="status">${flash.message}</div>
         </g:if>
@@ -17,7 +17,8 @@
 		</div>
 
 		<div class="register-notif">
-			No account? <g:link action="create">Register</g:link></div>
+			No account? <g:link action="create" style="font-weight:600;color:white">Register</g:link></div>
 		</div>
+	</div>
 </body>
 </html>

@@ -9,11 +9,7 @@ body{
     width: 100%;
     overflow: hidden;
     text-align: center;
-   /* background-image: url("https://marvelapp-live.storage.googleapis.com/serve/2017/2/1fe1e2c154cd42b8873f4350fe5908f0.png");
-    */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
+
 }
 
 .MID{

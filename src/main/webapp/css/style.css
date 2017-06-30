@@ -6,6 +6,13 @@
   min-height: 0 !important;
   margin-bottom: 0 !important;
   background-color: #353535;
+  border-radius: 0 !important;
+  border: none;
+  opacity: 0.9;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
 }
 
 .navbar-inverse .navbar-nav>li>a{
@@ -13,6 +20,7 @@
     font-weight: 700;
     letter-spacing: 1px;
     display: inline-block;
+    cursor: pointer;
 }
 
 
@@ -28,7 +36,6 @@ body {
   font-size: 1.6rem;
   font-family: "Open Sans", sans-serif;
   color: #ffffff;
-  background-color: #43b988;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -243,16 +250,21 @@ a {
 .login-field{
   border-radius: 0;
   background-color: transparent;
-  border: 2px solid white;
+  border-bottom: 2px solid white;
+  border-top: none;
+  border-left: none;
+  border-right: none;
   font-size: 47px;
   color: white;
   width: 100%;
   margin-bottom: 1px;
   font-weight: 600;
+  outline: none;
+  max-width: 512px;
 }
 
 #password{
-  color: #545151 !important;
+  color: #343f44 !important;
 }
 
 .login-btn{
@@ -263,12 +275,12 @@ a {
     text-align: center;
     margin: 0 auto;
     width: 170px;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 .login-btn:hover{
-  background-color: black;
-  color: white;
+  background-color: white;
+  color:  #343f44;
 }
 
 .register-notif{

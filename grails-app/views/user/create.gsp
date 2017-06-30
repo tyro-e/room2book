@@ -5,7 +5,7 @@
 </head>
 
 <body>
-    <div id="create-user" class="content scaffold-create" role="main">
+	<div style="height: 100vh; background-color: #43b988;">
         <g:if test="${flash.message}">
             <div class="notif" role="status">${flash.message}</div>
         </g:if>
