@@ -11,6 +11,8 @@ a.hcsb_searchButton{
 input{
     font-size: 45px !important;
     padding: 5px !important;
+    border-radius: 3px !important;
+    border: 1px solid #cfd8dc !important;
 }
 
 .hcsb_guests, .hcsb_checkinDay, .hcsb_checkinMonth, .hcsb_checkoutDay, .hcsb_checkoutMonth{
@@ -43,6 +45,7 @@ a.hcsb_searchButton{
 
 .hcsb_checkinDay, .hcsb_checkinMonth, .hcsb_checkoutDay, .hcsb_checkoutMonth{
     margin: 0 !important;
+    border-radius: 3px !important;
 }
 
 .hcsb_responsive_desktop .hcsb_checkinDateWrapper, .hcsb_responsive_desktop .hcsb_checkoutDateWrapper{
@@ -58,20 +61,26 @@ a.hcsb_searchButton{
  }
 
  .hcsb_outer{ 
-    padding: 4% 12% !important;
     max-width: 1400px !important;
     margin: 0 auto !important;
     height: 100% !important;
     top: 0 !important;
     bottom: 0 !important;
     text-align: center !important;
+    padding: 0 !important;
 }
 
  .hcsb_content{
     position: absolute !important;
-    top: -16% !important;
+    top: 0 !important;
     bottom: 0 !important;
     margin: auto !important;
     text-align: center !important;
     display: table !important;
+    width: 100% !important;
+ }
+
+ .hcsb_content fieldset{
+     max-width: 880px !important;
+     margin: 0 auto !important;
  }

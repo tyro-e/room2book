@@ -5,13 +5,9 @@
 </head>
 
 <body>
-	<div style="height: 100vh; background-color: #43b988;">
-        <g:if test="${flash.message}">
-            <div class="notif" role="status">${flash.message}</div>
-        </g:if>
-        
+	<div style="height: 100vh; background-color: #43b988;">   
         <div class="login-form col-md-4 col-md-offset-4 " style="padding-left: 0;padding-right: 0;text-align: center;">
-            <g:form action="save" >
+            <g:form action="save" class="form-horizontal" >
                 <input type="text" name="fullName" class=" login-field" autocomplete="off" placeholder="Name"/>
                 <input type="text" name="email" class=" login-field" autocomplete="off" placeholder="Email"/>
                 <input type="password" id="password" name="password" class=" login-field" autocomplete="new-password" placeholder="Password"/>
